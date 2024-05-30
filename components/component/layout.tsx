@@ -38,8 +38,7 @@ export function Layout() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Get in Touch</h2>
               <p className="max-w-[600px] text-gray-600 dark:text-gray-400 md:text-xl">
-                I'm always excited to discuss new projects and opportunities. Feel free to reach out to me using the
-                form below.
+                \고가영의 포토폴리오
               </p>
             </div>
             <form className="mt-6 space-y-4">
