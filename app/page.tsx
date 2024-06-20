@@ -144,8 +144,7 @@ export default function Home() {
                 <form className="flex flex-col space-y-4">
                   <Input className="max-w-lg" placeholder="고가영" type="text" />
                   <Input className="max-w-lg" placeholder="gy030316@gmail.com" type="email" />
-                  <Textarea className="max-w-lg" placeholder="Message" rows={4} />
-                  lassName="max-w-lg" placeholder="Mess          
+                  <Textarea className="max-w-lg" placeholder="Message" rows={4} />         
                   <Button className="w-full max-w-lg" type="submit">
                     Send Message
                   </Button>
