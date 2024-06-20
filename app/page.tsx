@@ -43,7 +43,6 @@ export default function Home() {
           <div className="container mx-auto px-4 md:px-6 max-w-screen-xl">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 lg:gap-8">
               <div className="group relative overflow-hidden rounded-lg">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">포토폴리오</h1>
                 <img
                   alt="Illustration 1"
                   className="aspect-square w-full object-cover transition-all duration-300 group-hover:scale-105"
