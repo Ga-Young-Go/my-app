@@ -33,12 +33,23 @@ export default function Home() {
                   고가영(KoGaYoung)
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                 고가영의 포토폴리오
+                 2D픽셀아트&배경 일러스트
                 </p>
               </div>
             </div>
           </div>
         </section>
+      <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+        <div className="container mx-auto px-4 md:px-6 max-w-screen-xl">
+          <div className="flex flex-col items-center space-y-4 text-center">
+            <div className="space-y-2">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+                포토폴리오
+              </h1>
+             </div>
+            </div>
+          </div>
+      </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container mx-auto px-4 md:px-6 max-w-screen-xl">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 lg:gap-8">
@@ -52,8 +63,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 transition-all duration-300 group-hover:opacity-100" />
                 <div className="absolute bottom-4 left-4 text-white opacity-0 transition-all duration-300 group-hover:opacity-100">
-                  <h3 className="text-lg font-semibold">Whimsical Forest</h3>
-                  <p className="text-sm">Digital Illustration</p>
+                  <h3 className="text-lg font-semibold">전체타일</h3>
+                  <p className="text-sm">타일</p>
                 </div>
               </div>
               <div className="group relative overflow-hidden rounded-lg">
@@ -66,8 +77,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 transition-all duration-300 group-hover:opacity-100" />
                 <div className="absolute bottom-4 left-4 text-white opacity-0 transition-all duration-300 group-hover:opacity-100">
-                  <h3 className="text-lg font-semibold">Enchanted Meadow</h3>
-                  <p className="text-sm">Digital Illustration</p>
+                  <h3 className="text-lg font-semibold">던전 계단</h3>
+                  <p className="text-sm">계단</p>
                 </div>
               </div>
               <div className="group relative overflow-hidden rounded-lg">
@@ -80,8 +91,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 transition-all duration-300 group-hover:opacity-100" />
                 <div className="absolute bottom-4 left-4 text-white opacity-0 transition-all duration-300 group-hover:opacity-100">
-                  <h3 className="text-lg font-semibold">Celestial Dreamscape</h3>
-                  <p className="text-sm">Digital Illustration</p>
+                  <h3 className="text-lg font-semibold">전체 맵</h3>
+                  <p className="text-sm">던전1</p>
                 </div>
               </div>
               <div className="group relative overflow-hidden rounded-lg">
@@ -94,8 +105,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 transition-all duration-300 group-hover:opacity-100" />
                 <div className="absolute bottom-4 left-4 text-white opacity-0 transition-all duration-300 group-hover:opacity-100">
-                  <h3 className="text-lg font-semibold">Floral Fantasy</h3>
-                  <p className="text-sm">Digital Illustration</p>
+                  <h3 className="text-lg font-semibold">전체 맵</h3>
+                  <p className="text-sm">던전2</p>
                 </div>
               </div>
               <div className="group relative overflow-hidden rounded-lg">
@@ -108,8 +119,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 transition-all duration-300 group-hover:opacity-100" />
                 <div className="absolute bottom-4 left-4 text-white opacity-0 transition-all duration-300 group-hover:opacity-100">
-                  <h3 className="text-lg font-semibold">Underwater Oasis</h3>
-                  <p className="text-sm">Digital Illustration</p>
+                  <h3 className="text-lg font-semibold">베이스캠프</h3>
+                  <p className="text-sm">캠프</p>
                 </div>
               </div>
               <div className="group relative overflow-hidden rounded-lg">
@@ -122,8 +133,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 transition-all duration-300 group-hover:opacity-100" />
                 <div className="absolute bottom-4 left-4 text-white opacity-0 transition-all duration-300 group-hover:opacity-100">
-                  <h3 className="text-lg font-semibold">Autumn Reverie</h3>
-                  <p className="text-sm">Digital Illustration</p>
+                  <h3 className="text-lg font-semibold">타이틀화면</h3>
+                  <p className="text-sm">아르테시아</p>
                 </div>
               </div>
             </div>
