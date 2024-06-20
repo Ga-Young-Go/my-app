@@ -178,6 +178,3 @@ const BrushIcon = (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => 
     <path d="M17.74 13.74a6 6 0 00-8.48 0L7 16H5.5A4.5 4.5 0 001 20.5 2.5 2.5 0 003.5 23a4.5 4.5 0 004.5-4.5V17l2.26-2.26a6 6 0 008.48 0 6 6 0 000-8.48 6 6 0 00-8.48 0L11 7" />
   </svg>
 );
-
-
-
