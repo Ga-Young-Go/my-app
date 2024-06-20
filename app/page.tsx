@@ -33,8 +33,7 @@ export default function Home() {
                   고가영(KoGaYoung)
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Jenna is a talented illustrator who specializes in whimsical and vibrant digital art. Her work is
-                  inspired by nature, fantasy, and the beauty of the everyday.
+                 고가영의 포토폴리오
                 </p>
               </div>
             </div>
