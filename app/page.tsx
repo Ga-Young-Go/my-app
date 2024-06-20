@@ -156,7 +156,7 @@ export default function Home() {
       </main>
       <footer className="px-4 lg:px-6 py-4">
         <div className="container mx-auto flex justify-between items-center">
-          <p className="text-sm text-gray-500 dark:text-gray-400">&copy; 2024 Jenna's Portfolio. All rights reserved.</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">&copy; 2024 Jenna&lsquos Portfolio. All rights reserved.</p>
           <nav className="flex gap-4 sm:gap-6">
             <Link className="text-sm text-gray-500 hover:underline dark:text-gray-400" href="#">
               Privacy Policy
