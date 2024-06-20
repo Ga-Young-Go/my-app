@@ -133,10 +133,9 @@ export default function Home() {
           <div className="container mx-auto px-4 md:px-6 max-w-screen-xl">
             <div className="grid items-center justify-center gap-4 text-center">
               <div className="space-y-3">
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Let&apos;s Collaborate</h2>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">연락주세요</h2>
                 <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  If you&apos;re interested in working with Jenna or would like to inquire about her services, please fill
-                  out the form below.
+                언제든 편하게 연락 남겨주세요
                 </p>
               </div>
               <div className="mx-auto w-full max-w-sm space-y-2">
