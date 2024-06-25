@@ -25,17 +25,6 @@ export default function Home() {
         </nav>
       </header>
       <main className="flex-1">
-        <section id="자기소개" className="w-full py-12 md:py-24 lg:py-32">
-          {/* 자기소개 섹션 내용 */}
-        </section>
-        <section id="작업물" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-          {/* 작업물 섹션 내용 */}
-        </section>
-        <section id="연락" className="w-full py-12 md:py-24 lg:py-32 border-t">
-          {/* 연락 섹션 내용 */}
-        </section>
-      </main>
-      <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
           <div className="container mx-auto px-4 md:px-6 max-w-screen-xl">
             <div className="flex flex-col items-center space-y-4 text-center">
@@ -165,13 +154,13 @@ export default function Home() {
       </main>
       <footer className="px-4 lg:px-6 py-4">
         <div className="container mx-auto flex justify-between items-center">
-          <p className="text-sm text-gray-500 dark:text-gray-400">&copy; 2024 KO GA YOUNG Portfolio. All rights reserved.</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">&copy; </p>
           <nav className="flex gap-4 sm:gap-6">
             <Link className="text-sm text-gray-500 hover:underline dark:text-gray-400" href="#">
-              Privacy Policy
+              
             </Link>
             <Link className="text-sm text-gray-500 hover:underline dark:text-gray-400" href="#">
-              Terms of Service
+              
             </Link>
           </nav>
         </div>
