@@ -14,16 +14,27 @@ export default function Home() {
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-            Work
+            자기소개
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-            About
+            작업물
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-            Contact
+            연락
           </Link>
         </nav>
       </header>
+      <main className="flex-1">
+        <section id="자기소개" className="w-full py-12 md:py-24 lg:py-32">
+          {/* 자기소개 섹션 내용 */}
+        </section>
+        <section id="작업물" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+          {/* 작업물 섹션 내용 */}
+        </section>
+        <section id="연락" className="w-full py-12 md:py-24 lg:py-32 border-t">
+          {/* 연락 섹션 내용 */}
+        </section>
+      </main>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
           <div className="container mx-auto px-4 md:px-6 max-w-screen-xl">
@@ -140,11 +151,11 @@ export default function Home() {
               </div>
               <div className="mx-auto w-full max-w-sm space-y-2">
                 <form className="flex flex-col space-y-4">
-                  <Input className="max-w-lg" placeholder="고가영" type="text" />
-                  <Input className="max-w-lg" placeholder="gy030316@gmail.com" type="email" />
-                  <Textarea className="max-w-lg" placeholder="Message" rows={4} />         
+                  <Input className="max-w-lg" placeholder="이름" type="text" />
+                  <Input className="max-w-lg" placeholder="이메일" type="email" />
+                  <Textarea className="max-w-lg" placeholder="메세지" rows={4} />         
                   <Button className="w-full max-w-lg" type="submit">
-                    Send Message
+                    전송하기
                   </Button>
                 </form>
               </div>
@@ -154,7 +165,7 @@ export default function Home() {
       </main>
       <footer className="px-4 lg:px-6 py-4">
         <div className="container mx-auto flex justify-between items-center">
-          <p className="text-sm text-gray-500 dark:text-gray-400">&copy; 2024 Jenna&lsquos Portfolio. All rights reserved.</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">&copy; 2024 KO GA YOUNG Portfolio. All rights reserved.</p>
           <nav className="flex gap-4 sm:gap-6">
             <Link className="text-sm text-gray-500 hover:underline dark:text-gray-400" href="#">
               Privacy Policy
